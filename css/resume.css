@@ -1,6 +1,38 @@
-html, button, input, select, textarea{
-	color: #444;
+body {
+    background-color: lightblue;
 }
-html{
-font-size: 1em;
-line-height: 1.4;}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+img {
+	width: 250px;
+	height:300px;
+	float:right;
+	content:1px;
+	color:#ccc;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+}
+
+div.wrapper {
+	min-width:320px;
+	max-width:900px;
+	position:center;
+	margin-left:auto;
+	margin-right:auto;
+    text-align: center;
+    padding: 10px 20px;
+ 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+}
