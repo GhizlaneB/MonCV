@@ -1,9 +1,23 @@
 @media only screen and (max-width: 740px){
-	#wrapper {background: #f77;}
+/*	#wrapper {background: #f77;}*/
+	#wrapper{width="100%";}
+}
+h1{
+	text-align: center;
 }
 @media only screen and (max-width: 570px){
-	#wrapper {background: #7f7;}
-}
+/*	#wrapper {background: #7f7;}*/
+/*	#wrapper {flex-direction:column ;
+*/
+	width="100%";}
+
 @media only screen and (max-width: 480px) {
-	#wrapper {background: #77f;}
+/*	#wrapper {background: #77f;}*/
+	#wrapper {
+	
+	float :none;
+	width : 100%;
+	columns: 1;}
 }
+#wrapper{
+display: initial;}
